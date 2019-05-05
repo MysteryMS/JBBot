@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "pwo main instance",
+      "script": "npm",
+      "args" : "start"
+    }
+  ]
+}

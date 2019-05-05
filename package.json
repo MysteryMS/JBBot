@@ -1,0 +1,19 @@
+{
+  "name": "jetbrains-bot",
+  "version": "1.0.0",
+  "description": "A discord.js bot",
+  "scripts": {
+    "start": "tsc -p tsconfig.json && node -r dotenv/config build/index"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.15",
+    "@types/ws": "^6.0.1",
+    "discord-akairo": "github:1Computer1/discord-akairo#master",
+    "discord.js": "github:discordjs/discord.js#master",
+    "dotenv": "^8.0.0",
+    "mongoose": "^5.5.5",
+    "reflect-metadata": "^0.1.13",
+    "typegoose": "^5.6.0",
+    "typescript": "^3.4.4"
+  }
+}
